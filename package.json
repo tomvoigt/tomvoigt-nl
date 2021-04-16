@@ -1,0 +1,22 @@
+{
+  "name": "tomvoigt-nl",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomvoigt/tomvoigt-nl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomvoigt/tomvoigt-nl/issues"
+  },
+  "homepage": "https://github.com/tomvoigt/tomvoigt-nl#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
+  }
+}
