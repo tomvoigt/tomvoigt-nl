@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist"
+    "bootstrap": "lerna bootstrap --hoist",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
   },
   "homepage": "https://github.com/tomvoigt/tomvoigt-nl#readme",
   "devDependencies": {
+    "husky": "^6.0.0",
     "lerna": "^3.22.1",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   }
 }
